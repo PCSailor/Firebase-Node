@@ -7,6 +7,7 @@ console.log(new Date().getFullYear() + ' sumFile is run'); <br>
 [Phil Curtis Website](http://philcurtis.io) <br>
 1.  Red Numbers <br>
 #------------------------------------- <br>
+#node_modules installed in 'angular-node-express-starter' folder
 # npm installs <br>
 npm install --save body-parser express firebase angular angular-material angular-aria angular-messages angular-animate angular-ui-router nodemon angularfire <br>
  <br>

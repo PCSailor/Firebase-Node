@@ -40,5 +40,27 @@ Firebase-Node setup <br>
     Function for LogIn button adding OAuth providers <br>
     Function for LogOut button <br>
     Function for $onAuthStateChanged <br>
+7.  Index.html
+    Create div to receive token data back <br>
+8.  App.js <br>
+    Create variable and app.use('/sumPath', sumVar) relating to the client.js / url:sumPath <br>
+9.  npm install --save firebase-admin <br>
+10. New .js file <br>
+    Create .js file with name given in Step 8-variable path name <br>
+    Add code <br>
+11. www.firebase.google.com <br>
+    Goto <https://console.firebase.google.com/project/sumProjectNameHere/settings/serviceaccounts/adminsdk> <br>
+    Copy snippet <br>
+    'Generate New Privavte Key', rename, & move to project server folder <br>
+12. New .js file <br>
+    Paste snippet before router.get <br>
+    Set 'var serviceAccount' path to server/firebase-service-account.json <br>
+13. .gitignore
+    add firebase-service-account.json (This is the secret file, do not put online)
+    Double check in terminal (git status)
+14. 
+
+
+
 
 
