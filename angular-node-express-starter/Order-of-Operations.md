@@ -37,5 +37,8 @@ Firebase-Node setup <br>
     Add a LogIn and LogOut button <br>
 6.  Client.js <br>
     Decide on OAuth Providers Discussed_Google/FB/Twitter/GitHub/Etc._Firebase/Authentication/Set up   sign-in Method (Google: angular auth signinwithpopup for further info <https://firebase.google.com/docs/reference/js/firebase.auth.Auth> and <https://firebase.google.com/docs/auth/web/google-signin>) <br>
-    Functions for LogIn and LogOut buttons adding OAuth providers <br>
+    Function for LogIn button adding OAuth providers <br>
+    Function for LogOut button <br>
+    Function for $onAuthStateChanged <br>
+
 

@@ -18,12 +18,31 @@ self.logIn = function(){
     console.log('client.js / firebaseUser authentication failed: ', error);
   });
 };
+
+self.$onAuthStateChanged(function(firebaseUser){
+// anonymous function run with either the logIn or logOut function is run
+  if(firebaseUser){
+    firebaseUser.getToken().then(function(idToken){
+      // creating the token and returning token to backend 
+      $http({
+        method: 'GET', // passing an object, do not have to pass an object but this time is
+        url: '/privateData',
+        // Need to pass the token back but GET requests/methods dont have body/data; so will pass the token within a header.
+        headers: {
+          id_token: idToken // can name both sides the same but not here for clarity
+       }
+      }).then(function(response) {
+        self.secretData = response.data; //  Angular normal GET request with a response, with difference of headers
+      });
+    });
+  }
+});
+
 self.logOut = function(){
   auth.$signOut().then(function(){
     console.log('client.js / firebaseUser logged out');
   });
-}
-
+};
 
 
 }); // Note: FOR: app.controller
