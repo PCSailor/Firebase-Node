@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>pc</title>
+  <script type="text/javascript" src="/vendor/angular.js"></script>
+  <script type="text/javascript" src="/vendor/firebase.js"></script>
+  <script type="text/javascript" src="/vendor/angularfire.js"></script>
+  <script type="text/javascript" src="/vendor/angular-material.js"></script>
+  <script type="text/javascript" src="/vendor/angular-aria.js"></script>
+  <script type="text/javascript" src="/vendor/angular-animate.js"></script>
+  <script type="text/javascript" src="/vendor/angular-messages.js"></script>
+  <script type="text/javascript" src="/vendor/angular-ui-router.js"></script>
+  <link rel="stylesheet" href="/styles/angular-material.css">
+  <!--<link rel="stylesheet" href="/styles/bootstrap.min.css">-->
+
+  <!--Script brought in from console.firebase.google.com/Add Firebase to your web app-->
+  <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyB23SXJhMzp7DjgAGlChsg4NZ6-MVCTxD4",
+      authDomain: "fir-node-3ee46.firebaseapp.com",
+      databaseURL: "https://fir-node-3ee46.firebaseio.com",
+      projectId: "fir-node-3ee46",
+      storageBucket: "fir-node-3ee46.appspot.com",
+      messagingSenderId: "338492541184"
+    };
+    firebase.initializeApp(config);
+  console.log('index.html/ Firebase.js script is run');
+  </script><!--END Script brought in from console.firebase.google.com/Add Firebase to your web app-->
+  <script type="text/javascript" src="scripts/client.js"></script>
+</head>
+
+<body ng-app="app" ng-controller="FirstController as fc">
+
+  <header class="jumbotron">
+    <h1 class="container">{{fc.message}} Angular Node Express Starter</h1>
+    <button ng-click="fc.logIn()">Log In</button>
+    <button ng-click="fc.logOut()">Log Out</button>
+  </header>
+
+
+</body>
+
+</html>

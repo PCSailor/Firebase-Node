@@ -1,0 +1,38 @@
+{
+  "name": "firebase-starter-files",
+  "version": "1.0.0",
+  "description": "firebase-starter-files_'angular-node-express-starter'",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "nodemon server/app.js",
+    "start": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PCSailor/Firebase-Node.git"
+  },
+  "keywords": [
+    "firebase",
+    "node",
+    "angular"
+  ],
+  "author": "Philip Curtis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PCSailor/Firebase-Node/issues"
+  },
+  "homepage": "https://github.com/PCSailor/Firebase-Node#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-aria": "^1.6.4",
+    "angular-material": "^1.1.3",
+    "angular-messages": "^1.6.4",
+    "angular-ui-router": "^0.4.2",
+    "angularfire": "^2.3.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "firebase": "^3.7.5",
+    "nodemon": "^1.11.0"
+  }
+}
