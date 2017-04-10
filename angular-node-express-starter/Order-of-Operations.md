@@ -1,5 +1,4 @@
-console.log(new Date().getFullYear() + ' angular-ui-router.js is run'); <br>
--- <br>
+console.log(new Date().getFullYear() + ' sumFile is run'); <br>
 #Red=hash <br>
 *Purple=open/close stars* <br>
 **Yellow=open/close 2 stars** <br>

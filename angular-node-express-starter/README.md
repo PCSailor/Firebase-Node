@@ -1,10 +1,11 @@
-console.log(new Date().getFullYear() + ' sumName.js is run'); <br>
+console.log(new Date().getFullYear() + ' sumFile is run'); <br>
 #Red=hash <br>
 *Purple=open/close stars* <br>
 **Yellow=open/close 2 stars** <br>
 `Green=open/close ticks` <br>
+<red> <br>
 [Phil Curtis Website](http://philcurtis.io) <br>
-1.  At line beginning, enter any number with a period to turn it red. <br>
+1.  Red Numbers <br>
 #------------------------------------- <br>
 # npm installs <br>
 npm install --save body-parser express firebase angular angular-material angular-aria angular-messages angular-animate angular-ui-router nodemon angularfire <br>
