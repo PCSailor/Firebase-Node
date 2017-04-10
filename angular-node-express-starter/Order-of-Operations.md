@@ -1,42 +1,42 @@
-console.log(new Date().getFullYear() + ' angular-ui-router.js is run');
---
-#Red=hash
-*Purple=open/close stars*
-**Yellow=open/close 2 stars**
-`Green=open/close ticks`
-<red>
-[Phil Curtis Website](http://philcurtis.io)
-1.  Red Numbers
-#-------------------------------------
-Firebase-Node setup
-1.  www.firebase.google.com
-    Add Firebase to project (console.firebase.google.com)
-    Log in - 
-    goto Console - 
-    create new project - 
-    'Add Firebase to your web app' - 
-    Copy Firebase-initialize script code (*Note:* if script field is empty, X out & retry)
-2.  Index.html
-    Paste Firebase-initialize code into index.html inbetween <head></head>
-3.  Index.html
-    Add angular-fire and other scripts, angular, firebase.
-    3 scripts added to index.html (Google ‘angular fire github’)
-		Must be in certain script order:
-			angular.js
-			firebase.js
-			angular-firebase.js (must come after angular.js and firebase.js)
-			Firebase-initialize script
-			client.js (last and after Firebase-initialize script)
-4.  Client.js
-    ['firebase'] dependency injection added to .module
-    $firebaseAuth added to call function in .controller
-    var auth = $firebaseAuth(); added
-5.  Index.html
-    Set up ng-app and ng-controller (as initiails)
-    Add {{sumInitial.message}}
-    Start up webpage - Check for message from 1st controller
-    Add a LogIn and LogOut button
-6.  Client.js
-    Decide on OAuth Providers Discussed_Google/FB/Twitter/GitHub/Etc._Firebase/Authentication/Set up   sign-in Method (Google: angular auth signinwithpopup for further info<https://firebase.google.com/docs/reference/js/firebase.auth.Auth> and <https://firebase.google.com/docs/auth/web/google-signin>)
-    Functions for LogIn and LogOut buttons adding OAuth providers
+console.log(new Date().getFullYear() + ' angular-ui-router.js is run'); <br>
+-- <br>
+#Red=hash <br>
+*Purple=open/close stars* <br>
+**Yellow=open/close 2 stars** <br>
+`Green=open/close ticks` <br>
+<red> <br>
+[Phil Curtis Website](http://philcurtis.io) <br>
+1.  Red Numbers <br>
+#------------------------------------- <br>
+Firebase-Node setup <br>
+1.  www.firebase.google.com <br>
+    Add Firebase to project (console.firebase.google.com) <br>
+    Log in -  <br>
+    goto Console -  <br>
+    create new project -  <br>
+    'Add Firebase to your web app' -  <br>
+    Copy Firebase-initialize script code (*Note:* if script field is empty, X out & retry) <br>
+2.  Index.html <br>
+    Paste Firebase-initialize code into index.html inbetween <head></head> <br>
+3.  Index.html <br>
+    Add angular-fire and other scripts, angular, firebase. <br>
+    3 scripts added to index.html (Google ‘angular fire github’) <br>
+		Must be in certain script order: <br>
+			angular.js <br>
+			firebase.js <br>
+			angular-firebase.js (must come after angular.js and firebase.js) <br>
+			Firebase-initialize script <br>
+			client.js (last and after Firebase-initialize script) <br>
+4.  Client.js <br>
+    ['firebase'] dependency injection added to .module <br>
+    $firebaseAuth added to call function in .controller <br>
+    var auth = $firebaseAuth(); added <br>
+5.  Index.html <br>
+    Set up ng-app and ng-controller (as initiails) <br>
+    Add {{sumInitial.message}} <br>
+    Start up webpage - Check for message from 1st controller <br>
+    Add a LogIn and LogOut button <br>
+6.  Client.js <br>
+    Decide on OAuth Providers Discussed_Google/FB/Twitter/GitHub/Etc._Firebase/Authentication/Set up   sign-in Method (Google: angular auth signinwithpopup for further info <https://firebase.google.com/docs/reference/js/firebase.auth.Auth> and <https://firebase.google.com/docs/auth/web/google-signin>) <br>
+    Functions for LogIn and LogOut buttons adding OAuth providers <br>
 

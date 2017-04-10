@@ -1,26 +1,27 @@
-console.log(new Date().getFullYear() + ' sumName.js is run');
-#Red=hash
-*Purple=open/close stars*
-**Yellow=open/close 2 stars**
-`Green=open/close ticks`
-[Phil Curtis Website](http://philcurtis.io)
-1.  At line beginning, enter any number with a period to turn it red.
-#-------------------------------------
-# npm installs
-npm install --save body-parser express firebase angular angular-material angular-aria angular-messages angular-animate angular-ui-router nodemon angularfire
-
-*Note:  All of these extensions have console logs installed*
-`console.log(new Date().getFullYear() + ' sumname.js is run');`
-body-parser
-express
-firebase
-angular
-angular-material
-angular-aria
-angular-messages
-angular-animate
-angular-ui-router
-*Note: without console.log: nodemon, angularfire*
-
-# angular-node-express-starter
-This is a starting point for Prime Academy students building an angular, node, and express app.
+console.log(new Date().getFullYear() + ' sumName.js is run'); <br>
+#Red=hash <br>
+*Purple=open/close stars* <br>
+**Yellow=open/close 2 stars** <br>
+`Green=open/close ticks` <br>
+[Phil Curtis Website](http://philcurtis.io) <br>
+1.  At line beginning, enter any number with a period to turn it red. <br>
+#------------------------------------- <br>
+# npm installs <br>
+npm install --save body-parser express firebase angular angular-material angular-aria angular-messages angular-animate angular-ui-router nodemon angularfire <br>
+ <br>
+*Note:  All of these extensions have console logs installed* <br>
+`console.log(new Date().getFullYear() + ' sumname.js is run');` <br>
+body-parser <br>
+express <br>
+firebase <br>
+angular <br>
+angular-material <br>
+angular-aria <br>
+angular-messages <br>
+angular-animate <br>
+angular-ui-router <br>
+*Note: without console.log: nodemon, angularfire* <br>
+ <br>
+# angular-node-express-starter <br>
+This is a starting point for Prime Academy students building an angular, node, and express app. <br>
+ <br>
