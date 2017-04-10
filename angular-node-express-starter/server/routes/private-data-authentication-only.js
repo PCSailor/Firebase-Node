@@ -13,11 +13,16 @@ admin.initializeApp({
 
 router.get('/', function (req, res) {
   admin.auth().verifyIdToken(req.headers.id_token).then(function(decodedToken){
- console.log(decodedToken);
+  // .auth returns an object with a function called verifyIdToken and the .then recognizes the correct signature and returns the decoded token.  Here the user has been fully authenticated on the backend.
+  console.log(decodedToken);
+  // After Authentication success, now add hardcoded Authorization for simplicity
   if(decodedToken.email === "philcurtisengineering@gmail.com"){
-    res.send("private-data.js / hardcoded Authorization sent due to philcurtisengineering@gmail.com");
+    res.send("private-data.js / hardcoded Authorization text sent");
   } else {
-  res.send(" Authroized Data revealed for: " + decodedToken.name);
+  // res.send('Authroized Data revealed: ', decodedToken.name); // Should send back an object but since sending back a string get a firebase error.
+  // So to correct error:
+  var dataString = " Authroized Data revealed for: " + decodedToken.name;
+  res.send(dataString);
   }
 })
 .catch(function(error) {

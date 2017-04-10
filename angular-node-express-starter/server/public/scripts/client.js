@@ -24,10 +24,10 @@ auth.$onAuthStateChanged(function(firebaseUser){ // auth. - not self. because th
   if(firebaseUser){
     firebaseUser.getToken().then(function(idToken){
       // creating the token and returning token to backend 
-      console.log('COMMENT OUT ID TOKEN');
-      console.log('Logging completely secure ID Token for Educational purposes only: ', idToken);
-      console.log('COMMENT OUT ID TOKEN');
-      console.log('https://jwt.io/');
+      // console.log('COMMENT OUT ID TOKEN');
+      // console.log('Logging completely secure ID Token for Educational purposes only: ', idToken);
+      // console.log('COMMENT OUT ID TOKEN');
+      // console.log('https://jwt.io/');
       $http({
         method: 'GET', // passing an object, do not have to pass an object but this time is
         url: '/privateData',
