@@ -4,7 +4,7 @@ app.controller('FirstController', function($firebaseAuth, $http) {
   // only using the Auth part of firebase
   console.log('client.js/ FirstController up and running');
   var self = this;
-  self.message = "Client.js / self.message 'message'!"
+  self.message = "This is the self.message from Client.js"
 
   var auth = $firebaseAuth();
 
@@ -42,7 +42,7 @@ auth.$onAuthStateChanged(function(firebaseUser){ // auth. - not self. because th
     });
   } else {
     console.log('client.js / firebaseUser not logged in or unauthorized');
-    self.secretData = "Log in";
+    self.secretData = "This is the self.secretData from Client.js";
   }
 });
 

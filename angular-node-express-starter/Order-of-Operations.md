@@ -45,20 +45,31 @@ Firebase-Node setup <br>
 8.  App.js <br>
     Create variable and app.use('/sumPath', sumVar) relating to the client.js / url:sumPath <br>
 9.  npm install --save firebase-admin <br>
-10. New .js file <br>
+10. New .js file (private-data.js) <br>
     Create .js file with name given in Step 8-variable path name <br>
     Add code <br>
 11. www.firebase.google.com <br>
     Goto <https://console.firebase.google.com/project/sumProjectNameHere/settings/serviceaccounts/adminsdk> <br>
     Copy snippet <br>
     'Generate New Privavte Key', rename, & move to project server folder <br>
-12. New .js file <br>
+12. New .js file (private-data.js) <br>
     Paste snippet before router.get <br>
     Set 'var serviceAccount' path to server/firebase-service-account.json <br>
-13. .gitignore
-    add firebase-service-account.json (This is the secret file, do not put online)
-    Double check in terminal (git status)
-14. 
+13. .gitignore <br>
+    add firebase-service-account.json (This is the secret file, do not put online) <br>
+    Double check in terminal (git status) <br>
+*Note:* Now Authentication Ends  <br>
+*Note:* Now Authorization starts <br>
+14. New .js file (private-data.js) <br>
+    Hardcode a specific email to test Authorization <br>
+15. npm install --save mongoose <br>
+    Required if working with Mongo from Node <br>
+16. Create models folder and new .js file <br>
+    Add code for model and schema <br>
+17. New .js file (private-data.js) <br>
+    add code to require model .js files <br>
+    
+
 
 
 

@@ -22,7 +22,9 @@ angular-aria <br>
 angular-messages <br>
 angular-animate <br>
 angular-ui-router <br>
-*Note: without console.log: nodemon, angularfire* <br>
+angularfire <br>
+mongoose <br>
+*Note: without console.log: nodemon* <br>
  <br>
 # angular-node-express-starter <br>
 This is a starting point for Prime Academy students building an angular, node, and express app. <br>
